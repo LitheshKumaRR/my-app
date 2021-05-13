@@ -1,3 +1,6 @@
-import Bike from "./one";
-import ReactDOM from "react-dom";
-ReactDOM.render(<Bike/>, document.getElementById("root")); 
+import ReactDom from 'react-dom';
+
+import App from './Listrendering/App'
+
+
+ReactDom.render(<App/>,document.getElementById('abc'))

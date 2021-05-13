@@ -1,5 +1,5 @@
 import React,{ Fragment} from "react";
-class Ok extends React.Component{
+class OK extends React.Component{
     render (){
         return(
             <Fragment>
@@ -9,4 +9,4 @@ class Ok extends React.Component{
         );
     }
 }
- export default Ok;
+ export default OK;
