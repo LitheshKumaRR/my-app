@@ -1,4 +1,4 @@
-export const customerData = [
+export const CustomerData = [
   {
     gender: "male",
     name: {

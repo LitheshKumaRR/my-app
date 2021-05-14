@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { customerData } from './CustomersData'
+import { CustomerData } from './CustomersData'
 class Customer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      customers: customerData,
+      customers:CustomerData,
     };
   }
   render() {
