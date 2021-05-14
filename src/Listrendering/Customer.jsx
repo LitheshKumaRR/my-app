@@ -7,7 +7,6 @@ class Customer extends Component {
       customers: customerData,
     };
   }
-
   render() {
     return (
       <>
@@ -27,7 +26,7 @@ class Customer extends Component {
           <div className="row">
             <div className="col">
               <table className="table table-hover text-center table-success table-striped">
-                <thead className="bg-info text-white">
+                <thead className="bg-info text-black">
                   <tr>
                     <th>Id</th>
                     <th>Image</th>
@@ -70,4 +69,5 @@ class Customer extends Component {
     );
   }
 }
-export default Customer
+
+export default Customer;
