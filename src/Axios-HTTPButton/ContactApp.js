@@ -21,7 +21,7 @@ class ContactApp extends Component {
         });
       })
       .catch();
-  };
+  }; 
   render() {
     return (
       <div>
