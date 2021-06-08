@@ -16,7 +16,7 @@ function ContactApp(){
             setEmp({...emp,errmessage:err})
         })
 
-    })
+    },[])
     let pullData=(contactData)=>{
         setEmp({...emp,selectedContacts:contactData})
 

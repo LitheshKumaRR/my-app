@@ -24,7 +24,7 @@ function ContactList(props){
                         </thead>
                         <tbody>
                             {props.data.length>0 ? (<>
-                            {props.data.map((contactData)=>{
+                            {props.data.map((contactData)=>{ 
                                 return(
                                     <>
                                     <tr onMouseOver={pushData.bind(this,contactData)}>
